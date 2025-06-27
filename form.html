@@ -80,6 +80,28 @@
             <textarea id="message" name="message"></textarea>
         </div>
         <div>
+            <label for="teachers">Teachers</label>
+            <input type="text" id="teachers" list="teachersList">
+            <datalist id="teachersList">
+                <option value="Ram Limbu"></option>
+                <option value="Kamal Shrestha"></option>
+                <option value="Manoj Kumar"></option>
+                <option value="Birendra Shah"></option>
+                <option value="Rahul Gandi"></option>
+            </datalist>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Your Contact Information</legend>
+                <input type="email" placeholder="Your Email">
+                <input type="tel" placeholder="Your Phone Number">
+            </fieldset>
+        </div>
+        <div>
+            <label for="fileChoose">File Choose</label>
+            <input type="file" id="fileChoose" name="files" multiple accept=".jpg,.png,.jpeg,.svg">
+        </div>
+        <div>
             <label for="submit">Submit</label>
             <input type="submit" id="submit">
         </div>
