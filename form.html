@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Input Element</h1>
+    <form>
+        <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name"> 
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age" min="1" max="120">
+        </div>
+        <div>
+            <label for="email">Age</label>
+            <input type="email" id="email" placeholder="Enter your email id">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <label for="optionA">Option A</label>
+            <input type="checkbox" id="optionA" name="checkbox" value="Option A">
+            <label for="optionB">Option B</label>
+            <input type="checkbox" id="optionB" name="checkbox" value="Option B">
+            <label for="optionC">Option C</label>
+            <input type="checkbox" id="optionC" name="checkbox" value="Option C">
+            <label for="optionD">Option D</label>
+            <input type="checkbox" id="optionD" name="checkbox" value="Option D">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+            <label for="time">Time</label>
+            <input type="time" id="time">
+            <label for="dateandtime">Date and Time</label>
+            <input type="datetime-local" id="dateandtime">
+        </div>
+        <div>
+            <label for="rating">Rating</label>
+            <input type="range" id="rating" min="0" max="100" step="20">
+        </div>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+        <div>
+            <label for="class">Class</label>
+            <select id="class" name="class">
+                <option disabled selected>Select Here</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+            <label for="submit">Submit</label>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
