@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="/form.css">
+
 </head>
 <body>
-    <h1>Input Element</h1>
+    
     <form>
+        <h1>Registration Form</h1>
         <div>
             <label for="name">Full Name</label>
             <input type="text" id="name" placeholder="Enter your name"> 
@@ -66,7 +69,7 @@
         </div>
         <div>
             <label for="class">Class</label>
-            <select id="class" name="class">
+            <select id="class" name="class" class="selectHere">
                 <option disabled selected>Select Here</option>
                 <option>Class 1</option>
                 <option>Class 2</option>
@@ -102,7 +105,7 @@
             <input type="file" id="fileChoose" name="files" multiple accept=".jpg,.png,.jpeg,.svg">
         </div>
         <div>
-            <label for="submit">Submit</label>
+            <!-- <label for="submit">Submit</label> -->
             <input type="submit" id="submit">
         </div>
     </form>
