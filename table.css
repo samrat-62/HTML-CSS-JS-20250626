@@ -1,0 +1,37 @@
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid grey;
+    padding: 0.5rem 0.75rem;
+}
+
+th{
+    border: 1px solid grey;
+    padding: 0.5rem 0.75rem;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+table tfoot tr:first-child{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: blueviolet;
+}
+
+table tr:nth-child(4){
+    background-color: chartreuse;
+}
+
+/* Even and odd no of rows */
+table tr:nth-child(2n){
+    background-color: coral;
+}
+
+table tr:nth-child(2n-1){
+    background-color: aquamarine;
+}
